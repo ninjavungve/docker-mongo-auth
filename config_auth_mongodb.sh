@@ -58,6 +58,6 @@ sleep 1
 
 # If everything went well, add a file as a flag so we know in the future to not re-create the
 # users if we're recreating the container (provided we're using some persistent storage)
-touch /data/db/.mongodb_password_set
+touch /data/db/.config_auth_mongodb_success
 
 echo "MongoDB configured successfully. You may now connect to the DB."
