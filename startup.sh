@@ -5,7 +5,7 @@ mongodb_cmd="mongod"
 cmd="$mongodb_cmd"
 
 if [ "$AUTH" == "YES" ]; then
-    cmd="$cmd --auth"
+    cmd="$cmd --auth --bind_ip_all"
 fi
 
 $cmd &
