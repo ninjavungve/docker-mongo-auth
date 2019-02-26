@@ -1,5 +1,5 @@
 # Fix mongo version
-FROM mongo:3.6.10
+FROM mongo:4.1.8
 
 MAINTAINER <Linh Le> linh.ld.vp@gmail.com
 
